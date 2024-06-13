@@ -1,2 +1,2 @@
-def isAnagram(s, t):
+def validAnagram(s, t):
     return sorted(s) == sorted(t)
