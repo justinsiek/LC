@@ -1,3 +1,4 @@
+#T: O(n) S: O(n)
 def twoSum(nums, target):
     hm = dict()
     for i in range(len(nums)):

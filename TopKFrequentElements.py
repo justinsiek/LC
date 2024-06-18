@@ -1,3 +1,4 @@
+#T: O(n^2) S: O(n+k)
 def topKFrequent(nums, k):
         hm = {}
         for x in list(set(nums)):

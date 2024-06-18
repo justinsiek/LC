@@ -1,3 +1,4 @@
+#T: O(nmlogm) S: O(n+m)
 def groupAnagrams(strs):
         hm = {}
         for x in strs:
